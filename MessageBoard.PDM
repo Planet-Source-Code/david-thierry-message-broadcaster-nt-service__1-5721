@@ -1,0 +1,87 @@
+[Root]
+Most Recent Package=Message Broadcasting System Package
+
+
+[Package|Message Broadcasting System Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Development\Visual Basic\Communictions\Message Board\Package
+
+[Package|Message Broadcasting System Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Message Broadcasting System Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Message Broadcasting System Package|Files Found]
+
+[Package|Message Broadcasting System Package|Files Released]
+
+[Package|Message Broadcasting System Package|Missing Dependency Information]
+D:\WINNT\system32\ntsvc.ocx=
+
+[Package|Message Broadcasting System Package|Out-of-Date Dependency Information]
+
+[Package|Message Broadcasting System Package|Files Added]
+D:\Development\Visual Basic\Communictions\Message Board\vslic.reg=
+
+[Package|Message Broadcasting System Package|Files Removed]
+
+[Package|Message Broadcasting System Package|Files In Project]
+D:\Development\Visual Basic\Communictions\Message Board\Broadcast.exe=Yes
+D:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\WINNT\system32\OLEAUT32.DLL=Yes
+D:\WINNT\system32\OLEPRO32.DLL=Yes
+D:\WINNT\system32\ASYCFILT.DLL=Yes
+D:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\WINNT\system32\MSWINSCK.OCX=Yes
+D:\WINNT\system32\ntsvc.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Development\Visual Basic\Communictions\Message Board\vslic.reg=Yes
+
+[Package|Message Broadcasting System Package|Configure Registry Files]
+Applicable=Yes
+D:\Development\Visual Basic\Communictions\Message Board\vslic.reg=Register
+
+[Package|Message Broadcasting System Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Message Broadcasting System Package|Install Locations]
+D:\Development\Visual Basic\Communictions\Message Board\Broadcast.exe=$(AppPath)
+D:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\system32\ntsvc.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Message Broadcasting System Package|Configure Shared Files]
+Applicable=Yes
+D:\Development\Visual Basic\Communictions\Message Board\Broadcast.exe=No
+
+[Package|Message Broadcasting System Package|Distribution]
+Type=single
+Size=
+Title=SCI Message Broadcasting System
+
+[Package|Message Broadcasting System Package|Package]
+PackageFolder=D:\Development\Visual Basic\Communictions\Message Board\Package
+ProjectFolder=D:\Development\Visual Basic\Communictions\Message Board
+ServerSideCab=
+File1=D:\Development\Visual Basic\Communictions\Message Board\Package\setup.exe
+File2=D:\Development\Visual Basic\Communictions\Message Board\Package\Setup.Lst
+File3=D:\Development\Visual Basic\Communictions\Message Board\Package\Broadcast.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
