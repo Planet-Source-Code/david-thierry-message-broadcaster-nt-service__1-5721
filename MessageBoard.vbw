@@ -1,0 +1,9 @@
+frmMessages = 44, 44, 527, 492, C, -59, 85, 424, 533, C
+modAPI = -6, 110, 455, 554, C
+modMisc = -31, 129, 430, 573, Z
+frmController = -37, 60, 424, 504, , -42, 133, 419, 577, C
+modAniTray = -67, 120, 394, 564, C
+frmBroadcast = 66, 66, 477, 510, , 0, 0, 461, 444, C
+frmNewComputer = 198, 198, 609, 642, C, 7, 178, 418, 622, C
+modRegUtils = -136, 157, 275, 601, C
+modGlobals = -45, 215, 366, 659, C
